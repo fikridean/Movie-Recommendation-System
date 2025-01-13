@@ -584,7 +584,7 @@ Kode di atas menghasilkan *output* berikut:
 | War                  | 35           | 0.1            |
 | IMAX                 | 1            | 0.0            |
 
-![Graph - Genres in movie_df](graph-genres_in_movie_df.png)
+![Graph - Genres in movie_df](https://raw.githubusercontent.com/fikridean/Movie-Recommendation-System/refs/heads/main/graph-genres_in_movie_df.png)
 
 Berdasarkan grafik di atas, dapat dilihat bahwa jumlah data genre drama mendominasi `movie_df` yang dimana disusul oleh genre `comedy` dan `action`.
 
@@ -607,7 +607,7 @@ CountAndPlot(rating_df, 'rating')
 | 1.5    | 279,252      | 1.4            |
 | 0.5    | 239,125      | 1.2            |
 
-![Graph - Genres in movie_df](graph-rating_in_rating_df.png)
+![Graph - Genres in movie_df](https://raw.githubusercontent.com/fikridean/Movie-Recommendation-System/refs/heads/main/graph-genres_in_movie_df.png)
 
 Berdasarkan grafik di atas, dapat dilihat bahwa mayoritas *user* memberikan rating ke film adalah sebesar `4.0`.
 
@@ -1349,7 +1349,7 @@ Berdasarkan *output* kode evaluasi diatas, dapat dilihat bahwa setelah model dij
   - RMSE adalah metrik yang digunakan untuk mengukur seberapa besar rata-rata kesalahan antara nilai yang diprediksi oleh model dengan nilai yang sebenarnya. Nilai RMSE dinyatakan dalam satuan yang sama dengan data asli, sehingga mudah untuk diinterpretasikan. Semakin kecil nilai RMSE, semakin baik model dalam membuat prediksi.
 
 - Rumus *Precision*
-  - ![Rumus RMSE](rumus-RMSE.png)
+  - ![Rumus RMSE](https://raw.githubusercontent.com/fikridean/Movie-Recommendation-System/refs/heads/main/rumus-RMSE.png)
 - Cara Kerja
   - RMSE dihitung dengan membandingkan nilai aktual dan nilai prediksi untuk setiap data. Selisih antara nilai aktual dan prediksi kemudian dikuadratkan agar semua nilai positif. Setelah itu, rata-rata dari semua hasil kuadrat dihitung untuk mendapatkan gambaran *error* rata-rata. Terakhir, akar kuadrat dari rata-rata tersebut diambil untuk menghasilkan nilai RMSE.
 
@@ -1363,7 +1363,7 @@ plt.legend(['train', 'val'])
 plt.show()
 ```
 
-![Collaborative Filtering Model Evaluation](graph-collaborative_filtering_model_evaluation.png)
+![Collaborative Filtering Model Evaluation](https://raw.githubusercontent.com/fikridean/Movie-Recommendation-System/refs/heads/main/graph-collaborative_filtering_model_evaluation.png)
 
 Berdasarkan *output* kode evaluasi diatas, dapat dilihat bahwa model dengan teknik *collaborative filtering* memberikan kinerja yang cukup baik yang dimana pada setiap *epoch*, RMSE model mengalami penurunan yang cukup signifikan dan terus menurun sampai *epoch* terakhir (10). Pada akhir *epoch*, dapat dilihat bahwa RMSE sudah cukup kecil yang dimana model yang dihasilkan sudah cukup baik. Berikut metrik yang dihasilkan:
 
